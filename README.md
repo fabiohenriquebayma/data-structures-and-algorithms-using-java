@@ -1,1 +1,1 @@
-# data-structures-and-algorithms-using-java
+My studies with Data Structures and Algorithms using Java
