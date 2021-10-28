@@ -16,25 +16,25 @@ public class BubbleSort {
         sort(new int[]{20, 35, -15, 7, 55, 1, -22});
     }
 
-    public static void sort(int[] array) {
-        for (int lastUnsortedIndex = array.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
+    public static void sort(int[] values) {
+        for (int lastUnsortedIndex = values.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--) {
             for (int i = 0; i < lastUnsortedIndex; i++) {
                 int j = i + 1;
-                if (array[i] > array[j]) {
-                    swap(array, i, j);
+                if (values[i] > values[j]) {
+                    swap(values, i, j);
                 }
             }
         }
 
-        for (int j : array) {
+        for (int j : values) {
             System.out.println(j);
         }
     }
 
-    private static void swap(int[] array, int i, int j) {
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
+    private static void swap(int[] values, int i, int j) {
+        int temp = values[i];
+        values[i] = values[j];
+        values[j] = temp;
     }
 
 }
