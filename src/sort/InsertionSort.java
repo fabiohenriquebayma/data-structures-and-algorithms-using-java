@@ -1,7 +1,7 @@
 package sort;
 
 /**
- * Insertion Sort
+ * Insertion Sort - Stable
  * O(n squared) - two loops
  * Recoding from the Course: Data Structures and Algorithms: Deep Dive Using Java, Created by:
  * Tim Buchalka, Goran Lochert, Tim Buchalka's Learn Programming Academy with Sarah Ettritch
