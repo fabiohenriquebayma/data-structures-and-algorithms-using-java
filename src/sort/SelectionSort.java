@@ -7,8 +7,10 @@ package sort;
  * it doesn't require much swapping as bubble sort, but
  * if we have duplicated items there is not guarantee that
  * they original order will be preserved (unstable).
+ * Recoding from the Course: Data Structures and Algorithms: Deep Dive Using Java, Created by:
+ * Tim Buchalka, Goran Lochert, Tim Buchalka's Learn Programming Academy with Sarah Ettritch
  */
-public class SelectionUnstableSort {
+public class SelectionSort {
 
     public static void main(String[] args) {
         sort(new int[]{20, 35, 55, -15, 7, 55, 1, -22});

@@ -7,8 +7,10 @@ package sort;
  * More steps will take more time.
  * Normally each loops corresponds to N, as we have two loops
  * it is N times N (quadratic)
+ * Recoding from the Course: Data Structures and Algorithms: Deep Dive Using Java, Created by:
+ * Tim Buchalka, Goran Lochert, Tim Buchalka's Learn Programming Academy with Sarah Ettritch
  */
-public class BubbleStableSort {
+public class BubbleSort {
 
     public static void main(String[] args) {
         sort(new int[]{20, 35, -15, 7, 55, 1, -22});

@@ -27,6 +27,8 @@ package arrays;
  *
  * If we code requires a loop is gonna be constant time, if the code requires
  * a loop will be a linear time.
+ * Recoding from the Course: Data Structures and Algorithms: Deep Dive Using Java, Created by:
+ * Tim Buchalka, Goran Lochert, Tim Buchalka's Learn Programming Academy with Sarah Ettritch
  */
 public class Arrays {
 
